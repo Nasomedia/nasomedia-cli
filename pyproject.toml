@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nasomedia-cli"
+version = "0.1.0"
+description = ""
+authors = ["hwc9169 <hwc9169@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9.6"
+typer = "^0.4.0"
+pyinstaller = "^4.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
