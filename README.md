@@ -1,5 +1,5 @@
 # nasomedia-cli
-nasomedia-cli는 명령어 기반으로 서비스의 폴더 구조를 자동으로 생성해주는 애플리케이션 입니다.  
+nasomedia-cli는 명령어 기반으로 서비스의 프로젝트 구조를 자동으로 생성해주는 애플리케이션 입니다.  
 # Install
 호환 플랫폼
 - windows
@@ -15,9 +15,9 @@ setx path "%PATH%;C:{REPOSITRY-PATH}/dist/ns-cli"
 ```
 
 # 사용법
-ns-cli는 서비스 하나를 생성하는 new 명령어와 이미 존재하는 서비스에 폴더를 생성해주는 init 명령어 두가지로 구성되어 있습니다.
+ns-cli는 서비스 하나를 생성하는 new 명령어와 이미 존재하는 서비스에 프로젝트 구조를 생성해주는 init 명령어 두가지로 구성되어 있습니다.
 ## new
-인자로 건내준 프로젝트 이름으로 폴더를 생성하고 그 프로젝트 폴더 내에서 폴더를 생성한다.
+인자로 건내준 프로젝트 이름으로 폴더를 생성하고 그 프로젝트 폴더 내에서 프로젝트 구조를 생성한다.
 - 실행 예제
 ```cmd
 C:\Users\hwc91\Desktop> ns-cli new hello-project
@@ -40,7 +40,7 @@ d-----      2021-11-10   오후 7:08                app
 PS C:\Users\hwc91\Desktop>
 ```
 ## init
-현재 디렉토리에서 폴더를 생성한다.
+현재 디렉토리에서 프로젝트 구조를 생성한다.
 - 실행 예제
 ```cmd
 C:\Users\hwc91\Desktop\hello-project> ns-cli init
