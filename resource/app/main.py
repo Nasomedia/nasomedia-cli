@@ -22,6 +22,3 @@ def test_get():
     return {"Hello": "World"}
 
 app.include_router(api_v1, prefix=settings.API_V1_STR)
-
-from app import models
-print(models.Author.metadata.tables)
