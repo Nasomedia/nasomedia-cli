@@ -60,3 +60,10 @@ d-----      2021-11-10   오후 7:08                app
 -a----      2021-11-10   오후 8:09         177212 poetry.lock
 -a----      2021-11-03   오전 8:49           1182 pyproject.toml
 ```
+
+# 프로젝트 의존 파일 설치
+```
+PS C:\Users\hwc91\Desktop\hello-project> pyenv local 3.9.6
+
+PS C:\Users\hwc91\Desktop\hello-project> poetry install
+```
